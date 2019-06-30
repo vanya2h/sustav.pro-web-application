@@ -1,0 +1,45 @@
+{
+  "name": "sustav.pro",
+  "version": "0.0.0",
+  "description": "Sustav.pro - web application",
+  "main": "./source/index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "rimraf ./build && cross-env NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@types/react": "16.8.22",
+    "@types/react-dom": "16.8.4",
+    "@typescript-eslint/eslint-plugin": "1.11.0",
+    "@typescript-eslint/parser": "1.11.0",
+    "awesome-typescript-loader": "5.2.1",
+    "babel-loader": "8.0.6",
+    "cross-env": "5.2.0",
+    "css-loader": "3.0.0",
+    "duplicate-package-checker-webpack-plugin": "^3.0.0",
+    "eslint": "6.0.1",
+    "eslint-plugin-react": "^7.14.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "rimraf": "2.6.3",
+    "terser-webpack-plugin": "^1.3.0",
+    "typescript": "3.5.2",
+    "url-loader": "2.0.1",
+    "webpack": "^4.35.0",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "3.7.2"
+  },
+  "keywords": [
+    "Web-site",
+    "React",
+    "Webpack"
+  ],
+  "author": "Koryakovtsev Ivan",
+  "license": "ISC"
+}
